@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Macondo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poor+Story&family=Protest+Riot&family=Protest+Strike&display=swap');
+
+body{
+  background: url("../images/tech.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+h1{
+  color: aliceblue;
+  font-family: "Macondo", cursive;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card-container{
+  background: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   width: 90%;
+   height: 220px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-bottom: 50px;
+}
+
+.card-container h2{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+ margin-left: 50px;
+}
+
+.card-container p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 50px;
+  color: white;
+}
+
+
+
+.card-btn{
+  margin-left: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.card-btn .link a{
+  background-color: rgb(199, 199, 221);
+  color: rgb(61, 61, 201);
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+ 
+}
+
+
+.card-btn .rmv a{
+  margin-right: 20px;
+  background-color: rgb(199, 199, 221);
+  color: red;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.link a:hover
+ {
+ background-color: white;
+ color: blue;
+}
+
+
+.rmv a:hover {
+ background-color: white;
+ color: red;
+}
+
+.loader {
+  color: white;
+  }
+
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{
+  border-radius: 40px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+}
+
+.pagination-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.pagination-btn .prev {
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: white;
+}
+
+.pagination-btn .next  {
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: white;
+}
+
+.pagination-btn p{
+  color: white;
+}
+
+@media (max-width:1050px) {
+  
+  .card-container{
+    margin-left: 45px;
+  }
+}
+
+@media (max-width:700px) {
+  
+  .card-container{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:430px) {
+  
+  .card-container{
+    margin-left: 20px;
+    height: 290px;
+  }
+  .card-container h2{
+    margin-left: 20px;
+  }
+
+  .card-container p{
+    margin-left: 20px;
+  }
+  .card-btn{
+    margin-left: 20px;
+  }
+}
