@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 - check the live site - https://tech-talk24.netlify.app
 
+- A tech news website utilizing an API, where the search filter provides current tech news. There's also pagination for navigating to another page and returning to the previous page.
